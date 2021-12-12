@@ -1,0 +1,102 @@
+$mycolor: #888888;
+$colorku: rgb(0, 0, 0);
+$about: #88b939;
+$warnasekunder: rgb(216, 22, 96);
+$font:allura;
+header{
+    background: rgb(153, 223, 200);
+    background-color: (153, 223, 200);
+    width: 60%;
+    text-align: right;
+    .logo{
+        font-size: 50px;
+        font-family: $font;
+        float: left;
+        padding: 10px 10px;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block; 
+            a{
+                display:block;
+                padding: 14px 15px;
+                float: right;
+                text-decoration: none;
+                color: $colorku;
+                margin-top:20px;
+            }
+            a:hover{
+                background-color: $colorku;
+                color: $mycolor;
+            }
+        }
+    
+    }
+}
+.banner{
+    background-color:rgb(172, 197, 114);
+    width: 60%;
+    padding: 0;
+    margin: 0px;
+    h3{
+        font-size: 1rem;
+        font-family: Arial;
+        background-color: rgb(172, 197, 114);
+        text-align: center;
+        p{
+        text-align: left;
+        font-family: Arial;
+        margin-top: auto;
+        font: size 10px;
+        }
+    }
+}
+
+.sidebar{
+	background:rgb(153, 223, 200);
+	float: left;	
+	width: 40%;
+	height: 380px;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: $about;
+    line-height: 15px;
+    font-family: $font;
+
+    span{
+        font-size: small;
+        color: blueviolet;
+    } 
+
+    
+}    .content{
+        background:rgb(118, 204, 175);
+        float: right;
+        height: 380px;
+        width: 20%;
+        margin-right:  533px;
+        margin-right: $about;
+        text-align: left;
+        font-size: 15px;
+        line-height: 30px;
+        font-family: $font;
+        
+    }   
+.sidebar li{
+    font-size: 15px;
+}
+/*akhir sidebar*/
+.footer{
+    width: 59%;
+    height: 70px;
+    padding-left: 9px;
+    line-height: 50px;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
